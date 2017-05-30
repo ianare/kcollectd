@@ -1,0 +1,82 @@
+2010-01-31:
+	Version 0.9
+	session-management
+	
+2009-11-30:
+	Version 0.8.2
+	make it compile with binutils-gold (see debian Bug#554939)
+
+2009-10-11:
+	Version 0.8.1
+	added a manual to make the help-menu-entry work.
+
+2009-06-06:
+	Version 0.8
+	added drag-n-drop Pixmap
+	make datasource-tree hideable
+	multiline legends
+
+2009-06-01:
+	read argument from commandline to load file
+	load/save config in xml-file
+
+2009-05-31:
+	added Menus
+	main window now is a KMainWindow
+
+2009-05-26:
+	Version 0.7
+	context-menu
+	changed functionality of gui.
+		now datasources has to be dragged to graph-widget
+
+2009-05-10:
+	widgets allows multigraphs
+
+2009-05-03:
+	Version: 0.6
+	added auto-update-and-follow-mode to manpage
+	changed from reading command-output of “rrdtool info”
+		to using the (new) function in rrd API
+
+2009-04-19:
+	Ported to KDE4
+	single leave-entries are no longer shown in tree
+
+2009-03-31:
+	fixed overlapping of labels on flat graphs
+	improved horzontal-lines (there can now be 10, 5 or 2 in a region)
+
+2009-01-08:
+	Version 0.3
+	fixed bug reported by Daniel Clark (this was a security problem)
+
+2008-08-01:
+	removed dependency on kglobalsettings.h from graph-widget
+	most of minmax → misc.cc
+	code-cleanup
+	removed y_range and base vom Graph-widget-class
+
+2008-07-31:
+	Version 0.2
+	multi-select. The user now can select multible datasources.
+	  There might be problems if rrd-layout differs between datasources
+	some cleanup
+
+2008-07-23
+	some cleanup, time-axes
+
+2008-07-14
+	removed the label displaying the datasource
+	added last-{hour,day,week,month}-buttons
+	added some sensiblity-checks to zooming
+	fixed Qt-problem with strftimes localized output
+	some more comments
+	color_-variables
+	KDE-defaultcolor for text
+	translation de fixed
+	name as a graph-label (but inactive)
+
+2008-07-10
+	translation
+

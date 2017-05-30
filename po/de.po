@@ -1,0 +1,214 @@
+# translation of de.po to
+# This file is put in the public domain.
+#
+# M G Berberich <berberic@fmi.uni-passau.de>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-06 21:35+0200\n"
+"PO-Revision-Date: 2009-06-16 20:41+0200\n"
+"Last-Translator: M G Berberich <berberic@fmi.uni-passau.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../kcollectd/graph.cc:228 ../kcollectd/graph.cc:258
+msgid "%A %Y-%m-%d"
+msgstr "%A, %d. %B %Y"
+
+#: ../kcollectd/graph.cc:230 ../kcollectd/graph.cc:260
+msgid "%A %Y-%m-%d %H:%M"
+msgstr "%A, %d. %B %Y %H:%M"
+
+#: ../kcollectd/graph.cc:232 ../kcollectd/graph.cc:262
+msgid "%A %Y-%m-%d %H:%M:%S"
+msgstr "%A, %d. %B %Y %H:%M:%S"
+
+#: ../kcollectd/graph.cc:226 ../kcollectd/graph.cc:256
+msgid "%Y-%m"
+msgstr "%B %Y"
+
+#: ../kcollectd/gui.cc:178
+msgid "&Edit"
+msgstr "&Bearbeiten"
+
+#: ../kcollectd/gui.cc:171
+msgid "&File"
+msgstr "&Datei"
+
+#: ../kcollectd/gui.cc:182
+msgid "&View"
+msgstr "&Ansicht"
+
+#: ../kcollectd/gui.cc:145
+msgid ""
+"<p>This button toggles the automatic update-and-follow mode</p><p>The "
+"automatic update-and-follow mode updates the graph every ten seconds. In "
+"this mode the graph still can be zoomed, but always displays <i>now</i> near "
+"the right edge and can not be scrolled any more.<br />This makes kcollectd "
+"some kind of status monitor.</p>"
+msgstr ""
+"<p>Dieser Knopf schaltet den automatischen Aktualisierung-und-folge Modus an "
+"an und aus</p><p>Der automatische aktualisierungs-und-folge Modus "
+"aktualisiert den Graph alle zehn Sekunden. In diesem Modus kann der Graph "
+"noch gezoomt werden, stellt aber immer <i>Jetzt</i> nahe der rechten Kante "
+"dar und kann nicht mehr verschoben werden.<br />Dadurch wird kcollectd zu "
+"einer Art Statusmonitor.</p>"
+
+#: ../kcollectd/kcollectd.cc:135
+msgid "A kcollectd-file to open"
+msgstr "Eine kcollectd-Datei zum Öffen"
+
+#: ../kcollectd/gui.cc:73
+msgid "Add New Subgraph"
+msgstr "Erzeuge neuen Untergraphen"
+
+#: ../kcollectd/gui.cc:95
+msgid "Automatic Update"
+msgstr "automatisches Update"
+
+#: ../kcollectd/graph.cc:656
+msgid "Drop sensors from list here"
+msgstr "Ziehen Sie Sensoren aus der Liste hierher"
+
+#: ../kcollectd/kcollectd.cc:146
+msgid ""
+"Failed to read collectd-structure at '%1'\n"
+"Terminating."
+msgstr ""
+"Die collectd-Struktur unter ‚%1‘ konnte nicht gelesen werden.\n"
+"Breche ab."
+
+#: ../kcollectd/gui.cc:101
+msgid "Hide Datasource Tree"
+msgstr "Blende Datenquellenbaum aus"
+
+#: ../kcollectd/kcollectd.cc:120
+msgid "KCollectd"
+msgstr "KCollectd "
+
+#: ../kcollectd/gui.cc:70
+msgid "Last Day"
+msgstr "Letzter Tag"
+
+#: ../kcollectd/gui.cc:69
+msgid "Last Hour"
+msgstr "Letzte Stunde"
+
+#: ../kcollectd/gui.cc:72
+msgid "Last Month"
+msgstr "Letzter Monat"
+
+#: ../kcollectd/gui.cc:71
+msgid "Last Week"
+msgstr "Letzte Woche"
+
+#: ../kcollectd/kcollectd.cc:127
+msgid "M G Berberich"
+msgstr "M G Berberich"
+
+#: ../kcollectd/kcollectd.cc:124
+msgid "Maintainer and developer"
+msgstr ""
+
+#: ../kcollectd/gui.cc:114
+msgid "Sensordata"
+msgstr "Sensordaten"
+
+#: ../kcollectd/gui.cc:296 ../kcollectd/gui.cc:331
+msgid "System message is: ‘%1’"
+msgstr "Systemnachricht lautet: ‚%1‘"
+
+#: ../kcollectd/kcollectd.cc:121
+msgid "Viewer for Collectd-databases"
+msgstr "Betrachter für collectd Datensammlungen"
+
+#: ../kcollectd/kcollectd.cc:131
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "berberic@fmi.uni-passau.de"
+
+#: ../kcollectd/kcollectd.cc:130
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "M G Berberich"
+
+#: ../kcollectd/graph.cc:761
+msgid "add new subgraph"
+msgstr "Erzeuge neuen Untergraphen"
+
+#: ../kcollectd/graph.cc:765
+msgid "delete this subgraph"
+msgstr "Entferne diesen Untergraphen"
+
+#: ../kcollectd/gui.cc:260
+msgid ""
+"file ‘%1’ allready exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Die Datei ‚%1‘ existiert bereits.\n"
+"Wollen Sie sie überschreiben?"
+
+#: ../kcollectd/graph.cc:236 ../kcollectd/graph.cc:266
+msgid "from %1 to %2"
+msgstr "Von %1 bis %2"
+
+#: ../kcollectd/gui.cc:135
+msgid "increases magnification"
+msgstr "erhöht die Vergrößerung"
+
+#: ../kcollectd/gui.cc:130
+msgid "last day"
+msgstr "Letzter Tag"
+
+#: ../kcollectd/gui.cc:132
+msgid "last hour"
+msgstr "Letzte Stunde"
+
+#: ../kcollectd/gui.cc:126
+msgid "last month"
+msgstr "Letzter Monat"
+
+#: ../kcollectd/gui.cc:128
+msgid "last week"
+msgstr "Letzte Woche"
+
+#: ../kcollectd/gui.cc:330
+msgid "opening the file ‘%1’ for writing failed."
+msgstr "Das Öffnen der Datei ‚%1‘ zum Schreiben schlug fehl."
+
+#: ../kcollectd/gui.cc:295
+msgid "reading file ‘%1’ failed."
+msgstr "Lesen der Datei ‚%1‘ fehlgeschlagen."
+
+#: ../kcollectd/gui.cc:139
+msgid "reduces magnification"
+msgstr "verringert die Vergrößerung"
+
+#: ../kcollectd/graph.cc:771
+msgid "remove "
+msgstr "Entferne "
+
+#: ../kcollectd/gui.cc:143
+msgid "toggle automatic update-and-follow mode."
+msgstr "schaltet den automatischen update-und-folge Modus an und aus"
+
+#: ../kcollectd/graph.cc:365
+msgid "week %V"
+msgstr "Woche %V"
+
+#: ../kcollectd/kcollectd.cc:123
+msgid "© 2008, 2009 M G Berberich"
+msgstr "© 2008, 2009 M G Berberich"
+
+#~ msgctxt "Your emails"
+#~ msgid "EMAIL OF TRANSLATORS"
+#~ msgstr "berberic@fmi.uni-passau.de"
+
+#~ msgctxt "Your names"
+#~ msgid "NAME OF TRANSLATORS"
+#~ msgstr "M G Berberich"

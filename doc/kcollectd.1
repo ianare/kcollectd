@@ -1,0 +1,55 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH KCOLLECTD 1 "9 February 2009"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+kcollectd \- view collectd datacollections
+.SH SYNOPSIS
+.B kcollectd
+.\"RI [ options ] " files" ...
+.SH DESCRIPTION
+.B Kcollectd 
+is a small applications that allows to view 
+.B rrd
+datacollections that have been created by 
+\fBcollectd\fR(1). 
+.PP
+It is quite limited, but allows to zoom and scroll around and has an
+automatic update and follow mode, which makes it some kind of
+status-monitor.
+.PP
+At the left side of the window is a tree, that lists all
+\fBcollectd\fR(1) datasources that
+.B kcollectd
+has found. You can select one or more of them with the mouse.
+.PP
+At the right the selected datasources are shown as graph. You can move
+the graph to the left or right with the mouse und zoom in or out with
+the mousewheel or the zoombuttons.
+.PP
+At the lower left there is a auto-update-button that allows to switch
+.B kcollectd 
+into the update-and-follow-mode. In this mode the graph still can be
+zoomed, but always displays 
+.I now
+near the right edge and can not be scrolled any more.
+.SH AUTHOR
+kcollectd was written by M G Berberich.
+.PP
+This manual page was written by M G Berberich <berberic@fmi.uni-passau.de>.
+.SH "SEE ALSO"
+.BR collectd(1)
+.BR rrdtool(1)

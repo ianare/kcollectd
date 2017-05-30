@@ -1,0 +1,17 @@
+#!/bin/bash
+
+SVGS="oxsc-mime-kcollectdgraph.svgz oxsc-app-kcollectd.svgz"
+
+for i in $SVGS; do
+    [[ $i =~ ^([a-zA-Z]+)sc-([a-z]+)-([^ ]+)\.svgz$ ]]
+    if [ $? != 0 ]; then 
+	echo "Name '$i' does not match"
+	continue
+    fi
+    TYPE=${BASH_REMATCH[1]}
+    GROUP=${BASH_REMATCH[2]}
+    NAME=${BASH_REMATCH[3]}
+    for SIZE in 16 22 32 48 64 128; do
+	inkscape --export-png "${TYPE}${SIZE}-${GROUP}-${NAME}.png" --export-width $SIZE "$i"
+    done
+done

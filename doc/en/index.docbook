@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kcollectd "<application>kcollectd 0.8</application>">
+  <!ENTITY kappname "&kcollectd;">
+  <!ENTITY package "kcollectd">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"><!-- change language only here -->
+  
+  
+  <!-- Do not define any other entities; instead, use the entities
+       from kde-genent.entities and $LANG/user.entities. -->
+]>
+<!-- kdoctemplate v0.8 October 1 1999 
+     Minor update to "Credits and Licenses" section on August 24, 2000
+     Removed "Revision history" section on 22 January 2001
+     Changed to Installation/Help menu entities 18 October 2001
+     Other minor cleanup and changes 18 October 2001 -->
+
+
+<!--
+This template was designed by: David Rugge davidrugge@mindspring.com
+with lots of help from: Eric Bischoff ebisch@cybercable.tm.fr
+and Frederik Fouvry fouvry@sfs.nphil.uni-tuebingen.de
+of the KDE DocBook team.
+
+You may freely use this template for writing any sort of KDE documentation.
+If you have any changes or improvements, please let us know.
+
+Remember:
+- in XML, the case of the <tags> and attributes is relevant ;
+- also, quote all attributes.
+
+Please don't forget to remove all these comments in your final documentation,
+thanks ;-).
+-->
+
+<!-- ................................................................ -->
+
+<!-- The language must NOT be changed here. -->
+
+<book lang="&language;">
+
+<!-- This header contains all of the meta-information for the document such
+as Authors, publish date, the abstract, and Keywords -->
+
+<bookinfo>
+<title>The &kcollectd; Handbook</title>
+
+<authorgroup>
+<author>
+<firstname>M G</firstname>
+<surname>Berberich</surname>
+<affiliation>
+<address><email>berberic@fmi.uni-passau.de</email></address>
+</affiliation>
+</author>
+</authorgroup>
+
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
+
+<copyright>
+<year>2008</year>
+<year>2009</year>
+<holder>M G Berberich</holder>
+</copyright>
+<!-- Translators: put here the copyright notice of the translation -->
+<!-- Put here the FDL notice.  Read the explanation in fdl-notice.docbook
+     and in the FDL itself on how to use it. -->
+<legalnotice>&FDLNotice;</legalnotice>
+
+<date>2009-10-11</date>
+<releaseinfo>0.8.1</releaseinfo>
+
+<abstract>
+<para>
+&kcollectd; is a small applications that allows to view rrd
+       datacollections that have been created by collectd.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>kcollectd</keyword>
+<keyword>collect</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title>Introduction</title>
+<para>
+&kcollectd; is a small applications that allows to view rrd
+datacollections that have been created by collectd.
+</para>
+<para>
+It is quite limited, but allows to zoom and scroll around and has an
+automatic update and follow mode, which makes it some kind of
+statusmonitor.
+</para>
+</chapter>
+
+<chapter id="using-kcollectd">
+<title>Using &kcollectd;</title>
+<para>
+At the left side of the window is a tree, that lists all collectd
+datasources that kcollectd has found. You can select one or more of
+them with the mouse.
+</para>
+<para>
+At the right the selected datasources are shown as graph. You can move
+the graph to the left or right with the mouse und zoom in or out with
+the mousewheel or the zoombuttons.
+</para>
+<para>
+At the lower left there is a auto-update-button that allows to switch
+kcollectd into the update-and-follow-mode.  In this mode the graph
+still can be zoomed, but always displays now near the right edge and
+can not be scrolled any more.
+</para>
+</chapter>
+
+<chapter id="seealso">
+<title>See also</title>
+<para>
+<command><ulink url='man:collectd'>collectd</ulink></command>(1)
+<command><ulink url='man:rrdtool'>rrdtool</ulink></command>(1)
+</para>
+</chapter>
+
+<chapter id="credits">
+<title>Credits and License</title>
+<para>
+&kcollectd;
+</para>
+<para>
+Program copyright 2008 M G Berberich <email>berberic@fmi.uni-passau.de</email>
+</para>
+<para>
+Contributors:
+<itemizedlist>
+<listitem>
+<para>Florian Forster <email>octo@verplant.org</email></para>
+</listitem>
+</itemizedlist>
+</para>
+<para>
+Documentation copyright 2009 M G
+Berberich <email>berberic@fmi.uni-passau.de</email>
+</para>
+
+<!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+
+&underFDL;               <!-- FDL: do not remove -->
+
+<!-- Determine which license your application is licensed under, 
+     and delete all the remaining licenses below:
+
+     (NOTE:  All documentation are licensed under the FDL, 
+     regardless of what license the application uses) -->
+
+&underGPL;        	 <!-- GPL License -->
+
+</chapter>
+
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab 
+-->
+
